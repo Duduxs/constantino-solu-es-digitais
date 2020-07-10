@@ -7,6 +7,10 @@ header{
     height: 150px;
     background-color: #160f2e;
 }
+
+body{
+    background-color: #160f2e1a;
+}
 footer{
     color: #e5a721;
     padding-top: 70px;
@@ -16,6 +20,7 @@ footer{
     text-align: center;
     font-size: small;
     text-shadow: 1px 1px 1px #111111;
+    font-style: italic;
 }
 .container{
    width: 960px;
@@ -39,21 +44,23 @@ h1{
     padding-bottom: 20px;
     background-color:rgba(242, 162, 20, 0.2);
 }
-#logo{
-    float: left;
-}
+
 #menu{
     float: right;
-    margin-top: 10px;
+    margin-top: -120px;
+    margin-right: -200px;
 }
 #menu a {
     color:#160f2e;
     text-decoration: none;
     padding: 15px;
     background-color: #e5a721;
+    border-radius: 8pt;
+    font: normal 15pt;
+    box-shadow: 5pt 5pt 15pt black;
 }
 #menu a:hover{
     background-color: #FFF8DC;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     
 }
